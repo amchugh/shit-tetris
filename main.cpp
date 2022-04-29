@@ -265,8 +265,6 @@ int play_game(bool first_time) {
         // Add our background effects
         background.draw();
 
-        DrawFPS(10, 10);
-
         const int border_size = 10;
 
         int left_edge = (width + board_width + border_size) / 2;
