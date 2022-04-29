@@ -1,10 +1,15 @@
 
 # Shit Tetris!
+
+![Title card](repo-stuff/titlecard.png)
+
 This project started off by a recommendation by my friend Josh Moskoff. The idea is that "it's Tetris, but only the vertical line piece". My friend Alma Zimberoff then gave me the idea to poorly recreate the Tetris music using my poor sequencing abilities. 
 
 ## Game
 The game is very simple. The arrow keys move the piece left and right while the up arrow drops the piece immediately. With every completed line the "pieces" (line piece) drops faster. At a certain point the pieces drops so fast it's impossible to continue. 
 There's no rotation. This made coding the game quite trivial and is why I was able to make it in just a day. The music is what took me the most time.
+
+![Game screen](repo-stuff/game.png)
 
 ## Running the game
 The game should be quite trivial to build through the use of cmake. This project is built using [raylib](https://github.com/raysan5/raylib). 
