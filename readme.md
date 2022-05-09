@@ -30,7 +30,7 @@ If these commands fail, check out the raylib github page. The most likely error 
 
 ## Distributing the game
 I wanted to share this with my girlfriend. 
-I rather nievely decided to zip up the debug executable with the `rsc` directory and send it to her.
+I rather naively decided to zip up the debug executable with the `rsc` directory and send it to her.
 Unsurprisingly, when she tried to run it, it didn't work. 
 Her computer complained that she didn't have `ucrtbased.dll`, `VCRUNTIME140_1D.dll`, and `VCRUNTIME140D.dll`.
 
