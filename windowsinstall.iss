@@ -7,7 +7,7 @@ DefaultDirName={autopf}/shittetris
 Name: "{app}/rsc"
 
 [Files]
-Source: "./build/Debug/shittetris.exe"; DestDir: "{app}"
+Source: "./build/Release/shittetris.exe"; DestDir: "{app}"
 Source: "./rsc/*"; DestDir: "{app}/rsc"
 
 ; VC++ redistributable runtime. Extracted by VC2015RedistNeedsInstall(), if needed.

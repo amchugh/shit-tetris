@@ -5,7 +5,9 @@ project(shittetris VERSION 1.0)
 
 IF (NOT CMAKE_BUILD_TYPE)
     message(STATUS "No build type selected, defaulting to Debug. \
-Add `-DCMAKE_BUILD_TYPE=Release` at cmake time to generate a release build")
+Add `-DCMAKE_BUILD_TYPE=Release` at cmake time to generate a release build.\
+NOTE:: On windows, this is actually done at cmake --build time. \
+Run `cmake --build . --config Release` instead.")
     set(CMAKE_BUILD_TYPE "Debug")
 ELSE()
     message(STATUS "Building ${CMAKE_BUILD_TYPE}")
